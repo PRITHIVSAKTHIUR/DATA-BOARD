@@ -6,12 +6,10 @@ import seaborn as sns
 import numpy as np
 import gradio as gr
 from mpl_toolkits.mplot3d import Axes3D
-
 css = '''
 .gradio-container{max-width: 900px !important}
 h1{text-align:center}
 '''
-
 def create_visualizations(data):
     plots = []
     
